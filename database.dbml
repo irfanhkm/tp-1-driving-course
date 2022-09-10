@@ -1,0 +1,41 @@
+Table schedules {
+  id int [pk, increment]
+  start_time varchar
+  end_time varchar
+  day enum
+  is_active boolean
+  created_at timestamp
+  updated_at timestamp
+}
+
+Table drivers {
+  id int [pk, increment]
+  full_name varchar
+  yoe int
+  gender enum
+  photo_url varchar
+  is_active boolean
+  created_at timestamp
+  updated_at timestamp
+}
+
+Table packages {
+  id int [pk, increment]
+  name varchar
+  detail text
+  price double
+  is_active boolean
+  created_at timestamp
+  updated_at timestamp
+}
+
+Table vehicles {
+  id int [pk, increment]
+  name varchar
+  brand varchar
+  machine_type varchar
+  photo_url varchar
+  is_active boolean
+  created_at timestamp
+  updated_at timestamp
+}
