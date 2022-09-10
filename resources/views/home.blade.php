@@ -33,22 +33,22 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#layanan" class="block py-2 pl-3 pr-4 rounded lg:bg-transparent lg:p-0" aria-current="page">
+                        <a href="#paket" class="block py-2 pl-3 pr-4 rounded lg:bg-transparent lg:p-0" aria-current="page">
                             Paket Kursus
                         </a>
                     </li>
                     <li>
-                        <a href="#layanan" class="block py-2 pl-3 pr-4 rounded lg:bg-transparent lg:p-0" aria-current="page">
+                        <a href="#driver" class="block py-2 pl-3 pr-4 rounded lg:bg-transparent lg:p-0" aria-current="page">
                             Driver
                         </a>
                     </li>
                     <li>
-                        <a href="#layanan" class="block py-2 pl-3 pr-4 rounded lg:bg-transparent lg:p-0" aria-current="page">
+                        <a href="#jadwal" class="block py-2 pl-3 pr-4 rounded lg:bg-transparent lg:p-0" aria-current="page">
                             Jadwal
                         </a>
                     </li>
                     <li>
-                        <a href="#layanan" class="block py-2 pl-3 pr-4 rounded lg:bg-transparent lg:p-0" aria-current="page">
+                        <a href="#kendaraan" class="block py-2 pl-3 pr-4 rounded lg:bg-transparent lg:p-0" aria-current="page">
                             Kendaraan
                         </a>
                     </li>
