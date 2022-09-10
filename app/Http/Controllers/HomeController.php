@@ -1,32 +1,17 @@
 <?php
 namespace App\Http\Controllers;
 
-use App\Models\Driver;
-use App\Models\Package;
-use App\Models\Schedule;
-use App\Models\Vehicle;
+use Illuminate\Support\Facades\File;
 
 class HomeController extends Controller
 {
     public function home()
     {
-        $scheduleMapInDay = [
-            "Senin" => [],
-            "Selasa" => [],
-            "Rabu" => [],
-            "Kamis" => [],
-            "Jumat" => [],
-            "Sabtu" => [],
-            "Minggu" => []
-        ];
-        Schedule::query()->isActive()->get()->each(function ($schedule) use (&$scheduleMapInDay) {
-            $scheduleMapInDay[$schedule->day][] = $schedule->start_time . " - " . $schedule->end_time;
-        });
         return view('home', [
-            'schedules' => $scheduleMapInDay,
-            'packages' => Package::query()->isActive()->get(),
-            'vehicles' => Vehicle::query()->isActive()->get(),
-            'drivers' => Driver::query()->isActive()->get()
+            'schedules' => json_decode(File::get(storage_path('app/static/schedules.json'))),
+            'packages' => json_decode(File::get(storage_path('app/static/packages.json'))),
+            'vehicles' => json_decode(File::get(storage_path('app/static/vehicles.json'))),
+            'drivers' => json_decode(File::get(storage_path('app/static/drivers.json'))),
         ]);
     }
 }

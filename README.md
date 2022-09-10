@@ -9,7 +9,6 @@ Tugas TP 1 - Irfan Hakim - 2301930394 - Computer Science
 
 ### Tech Requirement
 - PHP > 8
-- MySQL
 - Node and package manager
 - Tailwind CSS
 
