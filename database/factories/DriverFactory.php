@@ -13,11 +13,12 @@ class DriverFactory extends Factory
      */
     public function definition()
     {
+        $photoRandom = "https://avatars.dicebear.com/api/adventurer/". $this->faker->name.".svg";
         return [
             'full_name' => $this->faker->name,
             'yoe' => $this->faker->randomElement([1, 2, 3]),
             'gender' => $this->faker->randomElement(['Laki-Laki', 'Perempuan']),
-            'photo_url' => "https://source.unsplash.com/random/500x500/?face%20formal"
+            'photo_url' => $photoRandom
         ];
     }
 }

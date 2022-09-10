@@ -22,7 +22,7 @@ class DatabaseSeeder extends Seeder
         DB::table('packages')->truncate();
         DB::table('schedules')->truncate();
         DB::table('vehicles')->truncate();
-        Driver::factory(10)->create();
+        Driver::factory(4)->create();
 
         $this->seederPackage();
         $this->seederSchedules();
@@ -113,23 +113,28 @@ class DatabaseSeeder extends Seeder
     private function seederPackage(): void {
         $packageData = [
             [
-                'name' => 'Paket Mengemudi A (Manual)',
-                'detail' => '',
+                'name' => 'Paket Mengemudi A (Manual) + SIM',
+                'detail' => 'Paket mengemudi dengan mobil manual + pengurusan SIM',
                 'price' => 90.000
             ],
             [
-                'name' => 'Paket Mengemudi B (Matic)',
-                'detail' => '',
+                'name' => 'Paket Mengemudi B (Matic) + SIM',
+                'detail' => 'Paket mengemudi dengan mobil matic + pengurusan SIM',
                 'price' => 100.000
             ],
             [
-                'name' => 'Paket Mengemudi Lengkap (Matic & Manual)',
-                'detail' => '',
+                'name' => 'Paket Mengemudi C',
+                'detail' => 'Paket mengemudi sampai bisa !. Akan dikenakan tarif flat Rp 2.000.000',
+                'price' => 0
+            ],
+            [
+                'name' => 'Paket Mengemudi Lengkap (Matic & Manual) + SIM',
+                'detail' => 'Paket mengemudi dengan mobil manual dan matic (bergantian) + pengurusan SIM',
                 'price' => 110.000
             ],
             [
                 'name' => 'Paket Mengemudi Melancarkan',
-                'detail' => '',
+                'detail' => 'Bagi yang sudah pernah mengikuti kursus dan ingin melancarkan skill mengemudi di jalan raya',
                 'price' => 80.000
             ]
         ];
