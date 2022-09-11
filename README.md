@@ -3,6 +3,7 @@ Tugas TP 1 - Irfan Hakim - 2301930394 - Computer Science
 
 ### Installation
 - clone
+- composer and npm instal
 - copy and setup env
 - run migration and seed
 - visit root page
