@@ -9,7 +9,7 @@
     }],
     "env": {
         "APP_ENV": "production",
-        "APP_DEBUG": "false",
+        "APP_DEBUG": "true",
         "APP_URL": "https://tp-1-driving-course-app.vercel.app/",
         "APP_KEY": "base64:xe6DuXsDR37FsefbNYBVaKq2aDX+2U+J8Nsb0i8wWPM=",
 
