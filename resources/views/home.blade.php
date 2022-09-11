@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello Drive - Kursus mengemudi</title>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="https://cdn.statically.io/gh/irfanhkm/tp-1-driving-course/16b9231a/public/css/app.css" rel="stylesheet">
     <style>
         html {
             scroll-behavior: smooth;
@@ -17,7 +17,7 @@
     <nav class="bg-white border-gray-200 py-2.5 dark:bg-gray-900">
         <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
             <a href="#" class="flex items-center">
-                <img src="{{ asset("img/home/logo.png") }}" class="h-10 mr-3 lg:h-20" alt="Landwind Logo" />
+                <img src="https://cdn.statically.io/gh/irfanhkm/tp-1-driving-course/16b9231a/public/img/home/logo.png" class="h-10 mr-3 lg:h-20" alt="Landwind Logo" />
             </a>
             <div class="flex items-center lg:order-2">
                 <button data-collapse-toggle="mobile-menu-2" type="button" class="inline-flex items-center p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="mobile-menu-2" aria-expanded="false">
@@ -67,7 +67,7 @@
             </p>
         </div>
         <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
-            <img src=" {{ asset("img/home/header-image.jpg") }}">
+            <img src="https://cdn.statically.io/gh/irfanhkm/tp-1-driving-course/16b9231a/public/img/home/header-image.jpg">
         </div>
     </div>
 </section>
@@ -77,7 +77,7 @@
     <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
         <!-- Row -->
         <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
-            <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="{{ asset('img/home/image-1.jpeg') }}" alt="feature image 2">
+            <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="https://cdn.statically.io/gh/irfanhkm/tp-1-driving-course/16b9231a/public/img/home/image-1.jpeg" alt="feature image 2">
             <div class="text-gray-500 sm:text-lg dark:text-gray-400">
                 <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
                     Kami akan mengajari sampai bisa ! <small class="text-red-700">*</small>
@@ -252,7 +252,7 @@
     <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
         <div class="text-center">
             <a href="#" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
-                <img src="{{ asset("img/home/logo.png") }}" class="h-20 mr-3" />
+                <img src="https://cdn.statically.io/gh/irfanhkm/tp-1-driving-course/16b9231a/public/img/home/logo.png" class="h-20 mr-3" />
                 Hello Drive
             </a>
             <span class="block text-sm text-center text-gray-500 dark:text-gray-400">
